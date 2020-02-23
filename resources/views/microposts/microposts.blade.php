@@ -16,6 +16,9 @@
                         {!! Form::close() !!}
                     @endif
                 </div>
+                
+                @include('favoriting.favorite_button', ['micropost' => $micropost])
+                
             </div>
         </li>
     @endforeach
